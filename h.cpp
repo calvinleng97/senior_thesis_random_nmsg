@@ -131,10 +131,10 @@ int main(int argc, char **argv)
   int k = atoi(argv[2]);
   int b = n % 3;
 
-//  if (n <= 24 * k + 12 - 8 * b) {
-//    cout << "Error: n must strictly greater than " << 24 * k + 12 - 8 * b << "." << endl;
-//    return 1;
-//  }
+  if (n <= 24 * k + 12 - 8 * b) {
+    cout << "Error: n must strictly greater than " << 24 * k + 12 - 8 * b << "." << endl;
+    return 1;
+  }
 
   clock_t start_t, end_t;
   
