@@ -127,9 +127,6 @@ int main(int argc, char **argv)
     return 1;
   }
 
-  cout << "Hello world! (github test)\n";
-  cout << "Testing out branch\n";
-  cout << "Testing out branch\n";
   int n = atoi(argv[1]);
   int k = atoi(argv[2]);
   int b = n % 3;
